@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
             CircleAvatar(
               backgroundImage: NetworkImage(
                   'https://media-exp2.licdn.com/dms/image/C5603AQFhdvC71HlHVg/profile-displayphoto-shrink_800_800/0/1652365792198?e=1663200000&v=beta&t=_aznRagtI70kqpSgKTZlM_JzUdTkhCmf6W4TxxAnsCc'),
-              radius: 70.0,
+              radius: 60.0,
             ),
             Text(
               'Hilda Lee',
