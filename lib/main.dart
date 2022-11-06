@@ -1,8 +1,4 @@
-import 'dart:math';
-
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 
 void main() {
   runApp(MyApp());
@@ -22,8 +18,7 @@ class MyApp extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             CircleAvatar(
-              backgroundImage: NetworkImage(
-                  'https://media-exp2.licdn.com/dms/image/C5603AQFhdvC71HlHVg/profile-displayphoto-shrink_800_800/0/1652365792198?e=1663200000&v=beta&t=_aznRagtI70kqpSgKTZlM_JzUdTkhCmf6W4TxxAnsCc'),
+              backgroundImage: AssetImage('assets/images/formal.jpeg'),
               radius: 60.0,
             ),
             Text(
